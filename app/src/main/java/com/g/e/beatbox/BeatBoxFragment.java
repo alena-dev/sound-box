@@ -15,8 +15,17 @@ import com.g.e.beatbox.databinding.ListItemSoundBinding;
 
 public class BeatBoxFragment extends Fragment {
 
+    private BeatBox mBeatBox;
+
     public static BeatBoxFragment createInstance(){
         return new BeatBoxFragment();
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        mBeatBox=new BeatBox(getActivity());
     }
 
     @Nullable
