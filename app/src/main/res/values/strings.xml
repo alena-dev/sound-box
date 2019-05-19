@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TestApp</string>
+    <string name="question_text">How much is 2 plus 2?</string>
+    <string name="answer_button">I know answer</string>
+    <string name="show_answer_button">Show answer</string>
+    <string name="right_answer">Right! You have +1 point</string>
 </resources>
